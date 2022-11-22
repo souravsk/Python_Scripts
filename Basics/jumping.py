@@ -3,8 +3,11 @@ n = num
 flag = True
 while num!= 0:
     num1 = num%10
-    num = num/10
+    print(num,num1)
+    num = int(num/10)
+    print(num,num1)
     num2 = num%10
+    print(num,num2)
     if abs(num1 - num2) != 1:
         flag = False
 
